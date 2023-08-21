@@ -125,6 +125,9 @@ body{
     body{
        min-width: fit-content;
     }
+    .navbar{
+        position: sticky;
+    }
     .songItem{
         width: 95%;
     }
@@ -133,5 +136,11 @@ body{
     }
     .bottom{
         height: 93px;
+    }
+    #progressbar{
+        margin-top: 26px;
+    }
+    .icons{
+        margin-top: 20px;
     }
 }
