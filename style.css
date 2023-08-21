@@ -72,12 +72,7 @@ body{
 
 }
 
-.songinfo{
-    color: white;
-    position: absolute;
-    left: 10vw;
-    
-}
+
 
 /* ------------bottom---------- */
 
@@ -93,7 +88,12 @@ body{
     cursor: pointer;
 
 }
-
+.songinfo{
+    color: white;
+    position: absolute;
+    left: 10vw;
+    
+}
 .icons{
     display: flex;
     align-items: center;
@@ -121,3 +121,17 @@ body{
 
 
 
+@media only screen and (max-width:450px){
+    body{
+       min-width: fit-content;
+    }
+    .songItem{
+        width: 95%;
+    }
+    .songinfo{
+        left: 35vw;
+    }
+    .bottom{
+        height: 93px;
+    }
+}
